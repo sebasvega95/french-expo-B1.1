@@ -1,55 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-    <link rel="stylesheet" href="css/index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
     <title>Visitez le Japon!</title>
+    <link rel="stylesheet" href="css/index.css">
   </head>
 
   <body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script src="js/index.js"></script>
+
     <header>
-      <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Logo</a>
-          <ul id="nav-mobile" class="right">
-            <li class="active"><a href="#">Informations générales</a></li>
-            <li><a href="#">Components</a></li>
-            <li><a href="#">JavaScript</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="tour-header">
+        <h1>Au-dessus des nuages: L'ascension du Mont Fuji</h1>
+        <p>Grimpez au sommet du mont Fuji avec nos guides experts. Soyez témoin du lever du soleil spectaculaire au sommet du symbole national du Japon et découvrez la beauté de la région des Cinq Lacs Fuji.</p>
+      </div>
     </header>
 
     <main>
+      <div class="carousel">
+        <a class="carousel-item" href="#one!"><img src="img/carousel1.jpg" /></a>
+        <a class="carousel-item" href="#two!"><img src="img/carousel2.jpg" /></a>
+        <a class="carousel-item" href="#three!"><img src="img/carousel3.jpg" /></a>
+        <a class="carousel-item" href="#four!"><img src="img/carousel4.jpg" /></a>
+        <a class="carousel-item" href="#five!"><img src="img/carousel5.jpg" /></a>
+        <a class="carousel-item" href="#six!"><img src="img/carousel6.jpg" /></a>
+      </div>
 
+      <div class="container">
+        <h1>L'introduction du voyage</h1>
+        <div class="row">
+          <div class="col s6 justified">
+            <p>
+              Rencontre avec votre guide d'escalade experts et marcher jusqu'au point de départ de votre ascension, la 5e gare à 2300 mètres d'altitude. Grimpez au 7e poste et reposez-vous pendant quelques heures avant de commencer votre ascension finale. Arrivez au sommet juste avant le lever du soleil et soyez témoin du début d'une nouvelle journée sur le sommet du volcan. Descendez à la station de Kawaguchiko et dire adieu à votre guide.
+            </p>
+            <p>
+              Séjournez dans un ryokan traditionnel japonais et détendez-vous tandis que kimono vêtu serveuses vous servent un kaiseki, un repas joliment présenté composé de nombreux petits cours. Après le dîner, trempez-vous dans votre onsen: garanti pour se détendre et apaiser.
+            </p>
+          </div>
+          <div class="col s6">
+            <ul class="collection with-header">
+              <li class="collection-header"><h4>Tarifs</h4></li>
+              <li class="collection-item"><i class="tiny material-icons">schedule</i> 2 jours, 1 nuit</li>
+              <li class="collection-item"><i class="tiny material-icons">supervisor_account</i> ¥ 57519.95 (€ 500) par personne</li>
+              <li class="collection-item"><i class="tiny material-icons">shopping_basket</i> Demi-pension (petit déjouner et déjouner ou petit déjouner et dîner) plus le kaiseki le deuxieme jour</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col s6 justified">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title"><i class="tiny material-icons">done</i> Inclus dans ce plan</span>
+                <ul>
+                  <li>Hébergement dans les hôtels sélectionnés</li>
+                  <li>Les services d'un chauffeur privé et des véhicules climatisés</li>
+                  <li>Service de guides francophones dans tous les lieux</li>
+                  <li>Les droits d'entrée pour tous les sites mentionnés</li>
+                  <li>Les repas mentionnés dans l'itinéraire</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col s6 justified">
+            <div class="card blue-grey darken-1">
+              <div class="card-content white-text">
+                <span class="card-title"><i class="tiny material-icons">report_problem</i> Non inclus dans ce plan</span>
+                <ul>
+                  <li>Les vols intérieurs et internationaux</li>
+                  <li>Repas en dehors de ceux mentionnés dans l'itinéraire</li>
+                  <li>Les dépenses personnelles (blanchisserie, téléphone, boissons, etc.)</li>
+                  <li>Les frais de visa</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
 
     <footer class="page-footer">
       <div class="container">
         <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Footer Content</h5>
-            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          <div class="col s6">
+            <a href="https://www.tourisme-japon.fr/" target="_blank"><img src="img/jnto-logo.png" /></a>
           </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
+          <div class="col s6">
+            Tél.
             <ul>
-              <li><a class="grey-text text-lighten-3" href="#">Link 1</a></li>
+              <li>+66 (2) 633 9074</li>
+              <li>+800 2225 9273</li>
             </ul>
           </div>
         </div>
-      <!-- </div>
+      </div>
       <div class="footer-copyright">
         <div class="container">
-        © 2014 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          © 2016 MIT Licence
         </div>
-      </div> -->
+      </div>
     </footer>
+
   </body>
 </html>

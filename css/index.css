@@ -3,12 +3,36 @@ html, body {
   width: 100%;
 }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+main {
+  min-height: 100%;
+  padding: 0;
 }
 
-main {
-  flex: 1 0 auto;
+.tour-header {
+  background-image: url(../img/tourheader-Japan-01.jpg);
+  text-align: center;
+  height: 300px;
+  padding: 30px 200px;
+}
+
+.tour-header > h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 65px;
+  color: #EE9922;
+  margin: 0;
+}
+
+.tour-header > p {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+
+.carousel .carousel-item {
+  width: 500px !important;
+  height: 300px !important;
+}
+
+.justified {
+  text-align: justify;
 }
